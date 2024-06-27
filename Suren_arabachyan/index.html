@@ -22,83 +22,87 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar w/ text</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    Navbar text with an inline element
-                </span>
+
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar w/ text</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Navbar text with an inline element
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main photos functional - Start -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="mainphotos">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../Suren_arabachyan/photos/Tatev_monastry2.jpg" class="d-block w-100"
+                            alt="Tatev_monastry">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="monasterytitle"> Tatev Monastery</p>
+                            <p class="monasterysubtitle">9-th century.Located in Syunik region
+                            <p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../Suren_arabachyan/photos/Sevan_monastry.jpg" class="d-block w-100"
+                            alt="Sevan_monastry">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="monasterytitle">Sevan Monastery</p>
+                            <p class="monasterysubtitle">9-th century. Located in Sevan peninsula, Gegharkunik region
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Suren_arabachyan/photos/Geghard_monastry.jpg" class="d-block w-100"
+                            alt="Geghard_monastry">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="monasterytitle">Ayrivanq (Monastery of the Cave)</p>
+                            <p class="monasterysubtitle">13-th century. Located in Kotayq region.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-    </nav>
 
-    <!-- Main photos functional - Start -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="mainphotos">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="../Suren_arabachyan/photos/Tatev_monastry2.jpg" class="d-block w-100"
-                        alt="Tatev_monastry">
-                    <div class="carousel-caption d-none d-md-block">
-                        <p class="monasterytitle"> Tatev Monastery</p>
-                        <p class="monasterysubtitle">9-th century.Located in Syunik region
-                        <p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="../Suren_arabachyan/photos/Sevan_monastry.jpg" class="d-block w-100" alt="Sevan_monastry">
-                    <div class="carousel-caption d-none d-md-block">
-                        <p class="monasterytitle">Sevan Monastery</p>
-                        <p class="monasterysubtitle">9-th century. Located in Sevan peninsula, Gegharkunik region</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="../Suren_arabachyan/photos/Geghard_monastry.jpg" class="d-block w-100"
-                        alt="Geghard_monastry">
-                    <div class="carousel-caption d-none d-md-block">
-                        <p class="monasterytitle">Ayrivanq (Monastery of the Cave)</p>
-                        <p class="monasterysubtitle">13-th century. Located in Kotayq region.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-
-    <!-- Main photos functional - End -->
+        <!-- Main photos functional - End -->
 
 
 
@@ -108,7 +112,7 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 
 </html>
