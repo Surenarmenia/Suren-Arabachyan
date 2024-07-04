@@ -1,5 +1,8 @@
+/* Navbar menu - Start */
+
 .navbar-nav {
     margin-left: 20px;
+
 }
 
 .nav-item .nav-link {
@@ -12,15 +15,44 @@
 }
 
 .nav-item .nav-link:hover {
-    background-color: rgb(165, 43, 226);
+    background-color: rgb(41, 148, 41);
     color: white;
 }
 
+.logophoto {
+    left: 20px;
+    height: 80px;
+    width: 80px;
+
+}
+
+.logotext {
+    margin-left: 20px;
+    color: rgb(41, 148, 41);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.righttext {
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(41, 148, 41);
+}
+
+/* Navbar menu - End */
+
+
+/* Main photo - Start */
 
 .mainphotos {
     width: 100%;
     height: 80%;
     background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    margin-bottom: 30px;
 }
 
 .monasterytitle {
@@ -34,16 +66,58 @@
     margin-bottom: 40px;
 }
 
-.logo {
-    margin-left: 20px;
-    color: rgb(165, 43, 226);
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif
+/* Main photo - End */
+
+
+/* Book Table - Start */
+
+.background {
+    background-image: url(../photos/Goshlake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.righttext {
-    margin-right: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    color: rgb(165, 43, 226);
+.booking-form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.booking-form h2 {
+    text-align: center;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: lightcoral;
+    transition: 1s ease;
+
 }
