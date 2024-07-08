@@ -131,19 +131,20 @@
 
 }
 
-/* .column {
+.column {
     float: left;
     width: 25%;
     padding: 0;
-} */
+}
 
-/* .row {
+.row {
     content: "";
-    display: grid;
-    grid-template-columns: 30px 30px 30px;
+    display: table;
+    clear: both;
+    /* grid-template-columns: 30px 30px 30px;
     padding: 10px;
-    gap: 10px;
-} */
+    gap: 10px; */
+}
 
 .column {
     width: 100%;
