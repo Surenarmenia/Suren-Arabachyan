@@ -123,89 +123,53 @@
 
 }
 
+/* Section Services - Start */
 
-/* Section Packages Start */
-
-.packages {
-    background-color: lightblue;
-
-}
-
-.column {
-    float: left;
-    width: 25%;
-    padding: 0;
-}
-
-.row {
-    content: "";
-    display: table;
-    clear: both;
-    /* grid-template-columns: 30px 30px 30px;
-    padding: 10px;
-    gap: 10px; */
-}
-
-.column {
-    width: 100%;
-    margin-top: 30px;
-
-
-}
-
-.card {
-    padding: 16px;
-    text-align: left;
-}
-
-.photo {
-    height: 80%;
-    width: 70%;
-}
-
-
-.card {
+.grid-container {
     display: grid;
-    grid-template-columns: 30px 30px 30px;
-    gap: 20px 20px 20px;
+    grid-template-columns: auto auto auto;
     padding: 10px;
+    gap: 40px;
+}
+
+.grid-item {
+    /* padding: 50px; */
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-item .photo {
+    width: 375px;
+    height: 376px;
 }
 
 .main-txt h1 {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 30px;
     font-weight: 600;
-    color: #d38d24;
-    text-shadow: 0px 1px 1px rgb(206, 160, 34);
-}
-
-.fa-star {
+    text-shadow: 0px 1px 1px black;
     color: #ffa500;
-
 }
 
-.packages .card .card-body h6 {
-    font-size: 20px;
-    margin-bottom: 18px;
-    margin-top: 5px;
+.packages .grid-container {
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.packages .card .card-body a {
+.checked {
+    color: #ffa500;
+}
+
+.grid-container h5 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.packages .grid-container .grid-item a {
     padding: 10px;
     text-decoration: none;
     background: #ffa500;
     color: #ffffff;
     border-radius: 5px;
 }
-
-.packages .card .card-body a:hover {
-    background-color: rgb(193, 16, 27);
-    transition: 1s;
-}
-
-
-.card-body a:hover {
-    color: white;
-}
-
-/* Section Packages End */
