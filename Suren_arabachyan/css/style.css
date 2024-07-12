@@ -169,9 +169,15 @@
 .packages .grid-container .grid-item a {
     padding: 10px;
     text-decoration: none;
-    background: #ffa500;
+    font-family: cursive;
+    background: #ee7409;
     color: #ffffff;
     border-radius: 5px;
+}
+
+.packages .grid-container .grid-item a:hover {
+    background: #ffa500;
+    transition: 1s ease;
 }
 
 /* .grid-item1 .about_photo {
