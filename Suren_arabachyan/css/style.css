@@ -133,9 +133,9 @@
 }
 
 .grid-item {
-    /* padding: 50px; */
     font-size: 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .grid-item .photo {
@@ -172,4 +172,37 @@
     background: #ffa500;
     color: #ffffff;
     border-radius: 5px;
+}
+
+/* .grid-item1 .about_photo {
+    width: 300px;
+    height: 300px;
+} */
+
+.mydiv {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 100px;
+    margin-top: 10px;
+    gap: 40px;
+
+}
+
+#mybuttonid {
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffa500;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 550;
+    margin-top: 20px;
+
+}
+
+.about_text {
+    color: rgb(41, 148, 41);
+    font-weight: 600;
+
 }
