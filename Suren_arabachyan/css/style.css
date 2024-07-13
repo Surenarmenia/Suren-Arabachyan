@@ -86,7 +86,7 @@
 .booking-form {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 40px;
     max-width: 500px;
     width: 80%;
     margin: 0 auto;
@@ -104,7 +104,7 @@
 .booking-form input {
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .booking-form button {
@@ -123,7 +123,7 @@
 
 }
 
-/* Section Services - Start */
+/* Section Packages - Start */
 
 .grid-container {
     display: grid;
@@ -180,10 +180,11 @@
     transition: 1s ease;
 }
 
-/* .grid-item1 .about_photo {
-    width: 300px;
-    height: 300px;
-} */
+/* Section Packages - End */
+
+
+
+/* Section "About"  - Start */
 
 .mydiv {
     display: grid;
@@ -212,3 +213,6 @@
     font-weight: 600;
 
 }
+
+
+/* Section "About"  - End */
